@@ -1,3 +1,3 @@
 @foreach ($videos["body"]["data"] as $video)
-    <p>{{ $video["link"] }}</p>
+    <p>{!! $video["embed"]["html"] !!}</p>
 @endforeach
